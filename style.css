@@ -90,30 +90,30 @@ main {
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); text-decoration: none;}
  /*Desktop screen*/
-/*
+
 
 @media screen and (max-width: 1440px) and (min-width: 376px) {
    
-
     main {
-        position: relative;
         height: 100vh;
+        position: relative;
+        margin: auto; 
+        max-width: 50vw;   
     }
-
     .main-content {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-
         background-color: hsl(0, 0%, 100%);
         border: 1px solid hsl(0, 0%, 7%);
         border-radius: 20px;
         padding: 1.5rem;
+        max-width: 50%;
+        width: 100%;
         margin: 0;
         box-shadow: 9px 9px hsl(0, 0%, 7%);
-
-
+    
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 
     .banner {
@@ -137,14 +137,21 @@ main {
     }
 
     .title {
-        font-size: 1.36rem;
+        font-size: 1.57rem;
         font-weight: 800;
-        margin-bottom: 1rem;
+        margin-bottom: 1.1rem;
     }
 
     .intro {
-        font-size: 1.15rem;
-        margin-bottom: 1.9rem;
+        font-size: 1.05rem;
+        margin-bottom: 1.7rem;
         letter-spacing: 0.002rem;
     }
-} */
+
+    .profile-pic {
+        width: 10%;
+        vertical-align: middle;
+        margin-right: 0.6rem;
+    }
+
+}
